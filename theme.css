@@ -1,0 +1,507 @@
+/* User-Agent Style */
+html {
+    background-color: #0a0c12 !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: #0a0c12;
+}
+html, body {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #404c73;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #454a00 !important;
+    color: #e8e6e3 !important;
+}
+::selection {
+    background-color: #543939 !important;
+    color: #FFF !important;
+}
+::-moz-selection {
+    background-color: #543939 !important;
+    color: #FFF !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #080a0e;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #543939;
+   --darkreader-selection-text: #FFF;
+}
+
+/* Modified CSS */
+:root {
+    --side-nav-width: 250px;
+    --darkreader-bg--white: #0a0c12;
+    --darkreader-text--white: #e8e6e3;
+    --darkreader-bg--light-grey: #0d1018;
+    --darkreader-text--dark-grey: #9d9488;
+    --darkreader-text--black: #e8e6e3;
+    --darkreader-bg--accent: #26984c;
+    --darkreader-text--accent: #51d47d;
+    --darkreader-border--accent: #24934a;
+    --darkreader-bg--accent-light: rgba(38, 152, 76, 0.15);
+    --darkreader-bg--accent-dark: #268847;
+    --notification-warning: #ffd900;
+    --darkreader-bg--notification-warning-light: rgba(204, 174, 0, 0.2);
+    --darkreader-bg--light-yellow: rgba(188, 170, 0, 0.1);
+    --darkreader-text--light-yellow-text: #ffc21a;
+}
+::selection {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+body {
+    background: var(--darkreader-bg--light-grey);
+}
+h3 {
+    color: var(--darkreader-text--dark-grey);
+}
+.side-nav {
+    background: var(--darkreader-bg--white);
+}
+.open-nav {
+    background-image: initial;
+    background-color: rgb(10, 12, 18);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 10px;
+    -webkit-tap-highlight-color: rgba(232, 230, 227, 0);
+}
+.header-link,
+.hide-nav,
+.logout,
+.subject-link {
+    text-decoration-color: initial;
+    color: var(--darkreader-text--black);
+}
+.header-link:hover,
+.hide-nav:hover,
+.logout:hover,
+.side-nav .active,
+.subject-link:hover {
+    background: var(--darkreader-bg--accent-light);
+}
+.side-nav .active {
+    border-right: 5px solid var(--darkreader-border--accent);
+}
+.syllabus .header button {
+    border-color: initial;
+    background-image: initial;
+    background-color: rgb(68, 82, 122);
+    color: var(--darkreader-text--white);
+}
+.syllabus .exam-info table th {
+    color: var(--darkreader-text--dark-grey);
+}
+.syllabus .topic-container .topic {
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 10px;
+    text-decoration-color: initial;
+    color: var(--darkreader-text--black);
+    background: var(--darkreader-bg--white);
+}
+.syllabus .topic-container .topic:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 3px 3px 7px;
+}
+.topic .topic-no {
+    color: var(--darkreader-text--accent);
+    background: var(--darkreader-bg--accent-light);
+}
+.topic-container.AHL .topic-no {
+    color: var(--darkreader-text--light-yellow-text);
+    background: var(--darkreader-bg--light-yellow);
+}
+.topic-container.options .topic-no {
+    background-image: initial;
+    background-color: rgba(33, 163, 150, 0.1);
+    color: rgb(70, 218, 203);
+}
+.topic .topic-subs {
+    color: rgb(157, 148, 136);
+}
+.topic .topic-subs .sub-tag {
+    background: var(--darkreader-bg--light-grey);
+}
+.topic-page.sticky .header {
+    background-image: initial;
+    background-color: rgba(10, 12, 18, 0.42);
+    border-color: rgb(40, 48, 72);
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 10px;
+}
+.question-page .header .breadcrumb,
+.topic-page .header .breadcrumb {
+    color: rgb(157, 148, 136);
+}
+.question-page .header .breadcrumb .breadcrumb-link,
+.topic-page .header .breadcrumb .breadcrumb-link {
+    text-decoration-color: initial;
+    color: rgb(157, 148, 136);
+}
+.question-page .header .breadcrumb .breadcrumb-topic,
+.topic-page .header .breadcrumb .breadcrumb-topic {
+    color: var(--darkreader-text--black);
+}
+.question-page .header .breadcrumb .breadcrumb-question,
+.topic-page .header .breadcrumb .breadcrumb-question {
+    color: rgb(232, 230, 227);
+}
+.topic-page .paper-buttons a {
+    color: var(--darkreader-text--accent);
+    text-decoration-color: initial;
+    background: var(--darkreader-bg--accent-light);
+}
+@media only screen and (min-width: 1200px) {
+    .topic-page .paper-buttons a:hover {
+        color: rgb(232, 230, 227) !important;
+        background: var(--darkreader-bg--accent) !important;
+    }
+}
+.topic-page .paper-buttons a.active {
+    color: rgb(232, 230, 227) !important;
+    background: var(--darkreader-bg--accent) !important;
+}
+.topic-page .paper-buttons a.disabled,
+.topic-page .paper-buttons a.disabled:hover {
+    color: var(--darkreader-text--dark-grey) !important;
+    background-image: initial !important;
+    background-color: rgb(18, 22, 33) !important;
+}
+.questions-container .questions {
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 10px;
+    background: var(--darkreader-bg--white);
+}
+.questions .question-item {
+    color: rgb(211, 207, 201);
+    text-decoration-color: initial;
+    border-color: rgb(40, 48, 72);
+}
+.questions .question-item .question-id {
+    color: rgb(157, 148, 136);
+}
+.questions .question-item.complete {
+    background-image: initial;
+    background-color: rgba(31, 188, 0, 0.1);
+}
+.questions .question-item.revisit {
+    background: var(--darkreader-bg--light-yellow);
+}
+.breadcrumb-question .q-tag {
+    color: rgb(232, 230, 227);
+}
+.breadcrumb-question .q-tag.revisit {
+    background: var(--darkreader-bg--accent);
+}
+.breadcrumb-question .q-tag.complete {
+    background-image: initial;
+    background-color: rgb(0, 102, 0);
+}
+.markscheme-toggle .toggle {
+    color: rgb(157, 148, 136);
+}
+.markscheme-toggle .toggle:hover {
+    background-image: initial;
+    background-color: rgb(18, 22, 33);
+}
+.action button {
+    border-color: initial;
+    color: rgb(232, 230, 227);
+}
+.action button.complete-button {
+    background-image: initial;
+    background-color: rgb(37, 162, 87);
+}
+.action button.revisit-button {
+    background-image: initial;
+    background-color: rgb(201, 77, 0);
+}
+.action button.complete-button.unmark,
+.action button.revisit-button.unmark {
+    background-image: initial;
+    background-color: rgb(70, 84, 126);
+}
+.action button.skip-button {
+    background-image: initial;
+    background-color: rgb(8, 118, 170);
+}
+.action button.skip-button.disabledtrue {
+    background-image: initial;
+    background-color: rgb(19, 23, 35);
+    color: rgb(157, 148, 136);
+}
+.markscheme-container,
+.question-out {
+    background-image: initial;
+    background-color: rgb(10, 12, 18);
+}
+.main-message .logout {
+    color: rgb(200, 195, 188);
+}
+.main-message .logout:hover {
+    background-image: none;
+    background-color: initial;
+    color: rgb(157, 148, 136);
+}
+.main-message .embroidery {
+    color: rgb(200, 195, 188);
+}
+::-webkit-scrollbar {
+    background-image: initial;
+    background-color: rgb(18, 22, 33);
+}
+::-webkit-scrollbar-thumb {
+    background-image: initial;
+    background-color: rgb(35, 42, 63);
+}
+.search-box {
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 10px; 
+}
+.search-box input[type="text"] {
+    border-color: initial;
+    background-image: initial;
+    background-color: rgb(18, 22, 33); outline-color: initial; 
+}
+.search-box input[type="text"]:focus, .search-box input[type="text"]:hover {
+    background-image: initial;
+    background-color: rgb(25, 30, 46); 
+}
+.search-box input[type="submit"] {
+    border-color: initial;
+    background-image: initial;
+    background-color: rgb(18, 22, 33); outline-color: initial; 
+}
+.search-box input[type="submit"]:hover {
+    background-image: initial;
+    background-color: rgb(35, 42, 63);
+}
+.no-ques {
+    color: var(--darkreader-text--dark-grey);
+}
+.landing-wrapper .head .head-text {
+    color: rgb(200, 195, 188);
+}
+.landing-wrapper .head .head-link .login-button,
+.landing-wrapper .login .google,
+.landing-wrapper .redirect-button {
+    text-decoration-color: initial;
+    color: var(--darkreader-text--accent);
+    background: var(--darkreader-bg--accent-light);
+}
+.landing-wrapper .head .head-link .login-button:hover,
+.landing-wrapper .login .google:hover,
+.landing-wrapper .redirect-button:hover {
+    color: rgb(232, 230, 227);
+    background: var(--darkreader-bg--accent-dark);
+}
+.landing-wrapper .login .google.disabledtrue {
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+    color: rgb(159, 150, 138);
+}
+.blackpink img {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px;
+}
+.landing-wrapper h2 {
+    color: rgb(200, 195, 188);
+}
+.landing-wrapper .features .item img.save {
+    background: var(--darkreader-bg--accent-light);
+}
+.landing-wrapper .features .item img.layout {
+    background: var(--darkreader-bg--notification-warning-light);
+}
+.landing-wrapper .features .item img.zap {
+    background-image: initial;
+    background-color: rgba(33, 163, 150, 0.1);
+}
+.landing-wrapper .features .item h4 {
+    color: rgb(157, 148, 136);
+}
+.landing-wrapper .footer {
+    color: rgb(157, 148, 136);
+}
+.landing-wrapper .footer a {
+    text-decoration-color: initial;
+    color: rgb(157, 148, 136);
+}
+.landing-wrapper .footer a:hover {
+    color: rgb(200, 195, 188);
+}
+.landing-wrapper .login .google,
+.landing-wrapper .redirect-button {
+    outline-color: initial;
+    border-color: initial;
+}
+.landing-wrapper .login .login-error {
+    color: var(--darkreader-text--light-yellow-text);
+}
+.killed-message {
+    color: var(--darkreader-text--light-yellow-text);
+    background: var(--darkreader-bg--light-yellow);
+}
+@media only screen and (max-width: 1000px) {
+    .syllabus .exam-info table th {
+        color: var(--darkreader-text--dark-grey);
+    }
+    :root {
+        --side-nav-width: 0px;
+    }
+}
+.question .marks,
+.specification .marks {
+    color: rgb(178, 172, 162);
+}
+.CtxtMenu_InfoContent {
+    border-color: initial;
+    background-color: rgb(18, 22, 33);
+}
+.CtxtMenu_Info.CtxtMenu_MousePost {
+    outline-color: initial;
+}
+.CtxtMenu_Info {
+    border-color: initial;
+    background-color: rgb(27, 32, 48);
+    color: rgb(232, 230, 227);
+    box-shadow: rgb(73, 87, 131) 0px 10px 20px;
+}
+.CtxtMenu_MenuClose {
+    border-color: rgb(55, 66, 98);
+    color: rgb(223, 220, 215);
+}
+.CtxtMenu_MenuClose span {
+    background-color: rgb(52, 62, 93);
+    border-color: initial;
+}
+.CtxtMenu_MenuClose:hover {
+    color: rgb(232, 230, 227) !important;
+    border-color: rgb(47, 57, 85) !important;
+}
+.CtxtMenu_MenuClose:hover span {
+    background-color: rgb(35, 42, 63) !important;
+}
+.CtxtMenu_MenuClose:hover:focus {
+    outline-color: initial;
+}
+.CtxtMenu_Menu {
+    background-color: rgb(10, 12, 18);
+    color: rgb(232, 230, 227);
+    border-color: rgb(47, 57, 85);
+    box-shadow: rgb(73, 87, 131) 0px 10px 20px;
+}
+.CtxtMenu_MenuItem {
+    background-image: initial;
+    background-color: transparent;
+}
+.CtxtMenu_MenuArrow {
+    color: rgb(168, 160, 149);
+}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {
+    color: rgb(232, 230, 227);
+}
+.CtxtMenu_MenuInputBox {
+    color: rgb(168, 160, 149);
+}
+.CtxtMenu_SliderValue {
+    color: rgb(200, 195, 188);
+}
+.CtxtMenu_SliderBar {
+    outline-color: initial;
+    background-image: initial;
+    background-color: rgb(32, 38, 57);
+}
+.CtxtMenu_MenuRule {
+    border-top-color: rgb(44, 52, 79);
+}
+.CtxtMenu_MenuDisabled {
+    color: rgb(152, 143, 129);
+}
+.CtxtMenu_MenuActive {
+    background-color: rgb(60, 72, 108);
+    color: rgb(232, 230, 227);
+}
+.CtxtMenu_MenuDisabled:focus {
+    background-color: rgb(21, 26, 38);
+}
+.CtxtMenu_MenuLabel:focus {
+    background-color: rgb(21, 26, 38);
+}
+.CtxtMenu_ContextMenu:focus {
+    outline-color: initial;
+}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {
+    outline-color: initial;
+}
+.CtxtMenu_SelectionMenu {
+    border-bottom-color: initial;
+    box-shadow: none;
+}
+.CtxtMenu_SelectionBox {
+    background-color: rgb(10, 12, 18);
+}
+.CtxtMenu_SelectionDivider {
+    border-top-color: rgb(140, 130, 115);
+}
+mjx-merror {
+    color: rgb(255, 26, 26);
+    background-color: rgb(204, 204, 0);
+}
+mjx-assistive-mml {
+    border-color: initial !important;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1 {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+embed[type="application/pdf"][src="about:blank"] { filter: invert(100%) contrast(90%); }
+
+.action button.complete-button {
+    background-image: initial;
+    background-color: rgb(33 44 37);
+}
+
+.action button.revisit-button {
+    background-image: initial;
+    background-color: rgb(48 29 17);
+}
+
+.action button.skip-button {
+    background-image: initial;
+    background-color: rgb(9 25 32);
+}   
+
+img {
+    filter: brightness(0.8) sepia(1) hue-rotate(351deg) saturate(0.099) brightness(1) invert(1);
+}
