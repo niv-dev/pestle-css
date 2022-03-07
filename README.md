@@ -1,7 +1,7 @@
 # Custom Pestle Theme
 Dark Theme for CSS inspired by Material Ocean Color Scheme. 
 
-Go to [your browser's webstore](https://chrome.google.com/webstore), and search for `stylus`. When installed, click `pestle.ibdocuments.com`, and copy and paste the code from **theme.css**. 
+Go to [your browser's webstore](https://chrome.google.com/webstore), and search for `stylus`. When installed, click `Write new style for pestle.ibdocuments.com`, and copy and paste the code from **theme.css**. 
 
 ## Screenshots: 
 
